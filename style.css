@@ -24,3 +24,13 @@ body{
     align-items: center;
     background-color: #1E2337;
 }
+
+.navbar-desktop{
+    height: 8rem;
+    line-height: 8rem;
+    text-align: center;
+}
+
+.navbar-desktop a{
+    padding: 3rem;
+}
