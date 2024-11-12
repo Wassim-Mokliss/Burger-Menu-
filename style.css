@@ -48,7 +48,7 @@ body{
     background-color: #f92995;
     height: 100vh;
     position: fixed;
-    top: 0;
+    top: -100vh;
     left: 0;
     width: 100%;
     opacity: 0.9;
@@ -80,4 +80,14 @@ body{
 
 .navbar-mobile{
     display: none;
+}
+
+@media screen and (max-width : 700px) {
+    .navbar-desktop{
+        display: none;
+    }
+
+    .navbar-mobile{
+        display: block;
+    }
 }
